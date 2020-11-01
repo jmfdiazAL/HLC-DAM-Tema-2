@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejemplos de Intent Implícitos"
+        tools:context=".IntentImplicito" />
+
+    <Button
+        android:id = "@+id/botonUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "Abrir el navegador con una URL"
+        android:onClick="iNavegador"/>
+
+    <Button
+        android:id = "@+id/botonMapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "Abrir localización en mapa"
+        android:onClick="iMapas"/>
+    <Button
+        android:id = "@+id/botonDial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "Abrir el DIAL del teléfono"
+        android:onClick="iDial"/>
+    <Button
+        android:id = "@+id/botonCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "Realizar llamada telefónica"
+        android:onClick="iCall"/>
+
+</LinearLayout>

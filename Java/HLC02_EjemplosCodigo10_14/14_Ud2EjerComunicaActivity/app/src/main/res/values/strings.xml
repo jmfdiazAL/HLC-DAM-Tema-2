@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">14_Ud2EjerComunicaActivity</string>
+    <string name="verificar">Verificar</string>
+    <string name="resultado">Resultado</string>
+    <string name="nombre">Escribe tu nombre: </string>
+    <string name="edad">Escribe tu edad: </string>
+    <string name="aceptar">Aceptar</string>
+    <string name="rechazar">Rechazar</string>
+    <string name="saludo">Saludo</string>
+</resources>
